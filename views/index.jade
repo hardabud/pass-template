@@ -1,0 +1,6 @@
+if isAuthenticated == false
+	p not authenticated
+else
+	p hello #{user.id}
+	a(href='/logout')
+		button log out
